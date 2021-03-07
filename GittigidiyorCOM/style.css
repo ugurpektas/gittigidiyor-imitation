@@ -1,0 +1,254 @@
+/* Main classes*/
+*{
+    font-family: Roboto, Arial, sans-serif !important;
+    box-sizing: border-box !important;
+    color: black ;
+}
+/***********JAVASCRİPTE ATANANLAR ************/
+.dark {
+    background: black;
+    opacity: 0.5;
+}
+.light {
+    background: #dddddd;
+}
+.darkOver {
+    color: #fff;
+    z-index: 20;
+}
+
+/********************************************/
+body {
+    background: #dddddd;
+}
+header #header1 .container {
+    width: 1264px !important;
+}
+header #header2 .container {
+    width: 1279px !important;
+}
+header #header3 .container {
+    width: 1279px !important;
+}
+section .container {
+    width: 1248px !important;
+}
+ul li {
+    list-style-type: none !important;
+}
+a {
+    text-decoration: none !important;
+    color: #333333 !important;
+}
+span {
+    display: block !important;
+}
+
+
+/*************** Header ****************/
+/*üst-header*/
+#main-header { 
+    background: #fff;
+}
+#header1 ul li {
+    margin-left: 12px;
+    margin-right: 12px;
+    color: rgb(51, 51, 51);
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 0.72em;
+    font-weight: normal;
+    opacity: 0.9;
+}
+#header1 ul li:hover {
+    border-radius: 30px;
+    background: rgb(236, 234, 234);
+    padding: 0 5px;
+}
+/*Orta-header*/
+#inputs {
+    border: 2px solid rgb(54, 101, 243);
+    border-radius: 0.375em 0px 0px 0.375em;
+    background: rgb(255, 255, 255);
+    width: 100%;
+    height: 3.125em;
+    line-height: 2em;
+}
+#inputs:focus-within {
+    border: none !important;
+}
+#header2 #inputs input {
+    border: none !important;
+}
+#header2 #searchBtn1 {
+    border: none !important;
+    margin-right: 0.62em;
+    border-radius: 0px 0.375em 0.375em 0px;
+    padding: 1.12em 0.75em;
+    width: 6.87em;
+    height: 3.12em;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1em;
+    border: none;
+    background-color: rgb(54, 101, 243);
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.15;
+    width: 128px;
+}
+#header2 #searchBtn1:hover {
+    background: blue;
+}
+
+/***********LOGİNS & BASKETS***********/
+/*icons*/
+#login-basket i {
+    color:  rgb(54, 101, 243);
+}
+/*login*/
+#login {
+    padding-right: 20px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    font-size: 14px;
+}
+#login #span1 {
+    display: block;
+    padding-left: 5px;
+    color: rgb(51, 51, 51);
+}
+#login #span2 {
+    display: block;
+    padding-left: 5px;
+    font-size: 9.4px;
+}
+/*basket*/
+#basket {
+    padding-right: 20px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    font-size: 14px;
+}
+#basket span {
+    display: inline-block;
+    padding-left: 5px;
+    color: rgb(51, 51, 51);
+}
+/****Alt-Header*****/
+#header3 {
+    background-color: rgb(244, 244, 244);
+}
+
+#header3 #malzeme h1 {
+    text-align: center;
+    align-items: center !important;
+    font-size: 0.8em !important;
+    font-weight: normal;
+    line-height: 8px;
+    text-decoration: none;
+    padding: 0px 35px;
+    color: rgb(85, 85, 85);
+}
+
+#header3 #malzeme #elk:hover,
+                  #ev:hover,
+                  #moda:hover,
+                  #kozmetik:hover,
+                  #anne:hover,
+                  #market:hover,
+                  #kitap:hover,
+                  #oto:hover,
+                  #spor:hover {
+    color: rgb(54, 101, 243) !important;
+    border-bottom: 3px solid rgb(54, 101, 243);
+}
+
+
+
+#header3 #malzeme h1:hover {
+    color: rgb(54, 101, 243) !important;
+}
+
+
+
+/***************** MEGA CONTAİNER************/
+#header3 #megacontainer {
+	display: none;
+	position: absolute;
+	background: #fff !important;
+	width: 100%;
+    height: 505px !important;
+	top: 184px;
+    left: 234px;
+	z-index: 1;
+    padding: 20px 50px 30px 50px;
+    opacity: none !important;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+#header3 #elk:hover #megacontainer {
+	display: block;
+}
+#header3 #megacontainer a:hover{
+    text-decoration: underline !important;
+}
+#header3 #megacontainer #spanbaslik {
+    font-weight: bold !important;
+    font-size: 17px !important;
+}
+#header3 #megacontainer #spanbaslik a:hover{
+    color: blue !important;
+    text-decoration: underline !important;
+}
+#header3 #megacontainer #elektrik {
+    margin-top: 20px;
+}
+#header3 #megacontainer #elektrik a {
+    color: black;
+    font-size: 0.7em;
+    opacity: 0.8;
+}
+#header3 #megacontainer a #mobile {
+    color: blue;
+    font-size: 24px;
+    background: rgba(64, 64, 180, 0.1);
+    border-radius: 100%;
+}
+#header3 #megacontainer a #right {
+    color: blue;
+    margin-left: 10px;
+}
+#header3 #megacontainer #seeAll{
+    color: blue !important;
+}
+#header3 #megacontainer #seeAll a {
+    color: blue !important;   
+}
+
+
+/*************************************/
+/***********SECTİON BÖLÜMÜ**********/
+
+/* BODY-HERO-GENEL*/
+#hero {
+    height: 100%;
+    border-top: 1px solid rgb(209, 207, 207);  
+    padding:16px 0px;
+    background: #eeeeee;
+}
+
+#hero #mozbey img {
+    border-radius: 6px;
+}
+
+/*SLIDER BÖLÜMÜ*/
+#hero .container #kucukresimler div:hover{
+    border-bottom: 3px solid rgb(54, 101, 243);
+    border-radius: 2px;
+}
+
+
+

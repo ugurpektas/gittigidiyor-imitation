@@ -1,0 +1,14 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2021 by original authors @ fontello.com</metadata>
+<defs>
+<font id="iconfont" horiz-adv-x="1000" >
+<font-face font-family="iconfont" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="right" unicode="&#xe802;" d="M994 365l-313 312c-8 8-21 8-29 0-8-8-8-21 0-29l277-277h-908c-12 0-21-9-21-21s9-21 21-21h908l-277-277c-8-8-8-21 0-29 4-4 9-6 15-6 5 0 10 2 14 6l313 312c8 8 8 22 0 30z" horiz-adv-x="1000" />
+
+<glyph glyph-name="mobile" unicode="&#xe803;" d="M715 850h-430c-40 0-73-33-73-73v-854c0-40 33-73 73-73h430c40 0 73 33 73 73v854c0 40-33 73-73 73z m44-795h-415c-8 0-15-6-15-15 0-8 7-14 15-14h415v-103c0-24-20-44-44-44h-430c-24 0-44 20-44 44v103h44c8 0 15 6 15 14 0 9-7 15-15 15h-44v649h518v-649z m0 678h-518v44c0 24 20 44 44 44h430c24 0 44-20 44-44v-44z m-200 58h-59c-8 0-15-6-15-14 0-8 7-15 15-15h59c8 0 14 7 14 15 0 8-6 14-14 14z m-59-795c-24 0-44-19-44-44 0-24 20-43 44-43s44 19 44 43c0 25-20 44-44 44z m0-58c-8 0-15 6-15 14s7 15 15 15 15-6 15-15-7-14-15-14z" horiz-adv-x="1000" />
+</font>
+</defs>
+</svg>
