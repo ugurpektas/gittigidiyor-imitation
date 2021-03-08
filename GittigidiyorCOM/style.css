@@ -4,7 +4,7 @@
     box-sizing: border-box !important;
     color: black ;
 }
-/***********JAVASCRİPTE ATANANLAR ************/
+/***********JAVASCRİPT'TE Kullanılan classlar ************/
 .dark {
     background: black;
     opacity: 0.5;
@@ -250,5 +250,21 @@ span {
     border-radius: 2px;
 }
 
-
+/*Yıldız fırsatlar bölümü*/
+#hero .btn {
+    display: none;
+}
+#hero #urunler:hover{
+    border: none !important;
+    box-shadow: 1px 1px 1px 1px rgb(121, 118, 118);
+}
+#hero #urunler:hover .btn{
+    display: block;
+}
+#hero #urunler #puan {
+    display: block;
+}
+#hero #urunler:hover #puan{
+    display: none !important;
+}
 
