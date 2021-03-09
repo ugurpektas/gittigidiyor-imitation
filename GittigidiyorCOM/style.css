@@ -268,3 +268,84 @@ span {
     display: none !important;
 }
 
+/*********Sizin için seçtiklerimiz BÖLÜMÜ*******/
+#sizinicinCon {
+    background: #fff;
+    height: 596px;
+    padding: 0px;
+    border-radius: 6px !important;
+}
+#sizinicinCon #sizinicinRow1 {
+    height: 79px;
+    padding: 25px 20px 25px 30px;
+    font-size: 24px;
+    margin: 0px;
+    color: #333333;
+}
+#sizinicinCon #sizinicinRow2{
+    margin: 0px;
+}
+#sizinicinCon #sizinicinUL {
+    height: 496px; 
+    width: 210px; 
+    padding-top: 10px;
+}
+#sizinicinCon #sizinicinUL li:hover {
+    border-radius: 4px !important;
+    font-size: 14px;
+}
+#sizinicinCon #secilenler {
+    height: 506px; 
+    width: 1038px;
+}
+#sizinicinCon #secilenMarka {
+    margin-left: 32px; 
+    padding: 10px 16px 8px 0px;
+}
+
+#sizinicinCon #secilenler #urunler {
+    padding: 8px; 
+    height: 465px; 
+    width: 222px; 
+    border: 1px solid rgb(233, 222, 222); 
+    border-radius: 4px;
+}
+#sizinicinCon #secilenler #resim1,
+                        #resim2,
+                        #resim3,
+                        #resim4 {
+    height: 206px; 
+    width: 206px;
+}
+#sizinicinCon #secilenler #aciklama {
+    height: 80px; 
+    padding: 16px 12px 8px 12px; 
+    font-size: 14px; 
+    margin: 0px 0px 3.5px;
+}
+#sizinicinCon #secilenler #fiyat {
+    height: 53px; 
+    background: #f4f4f4; 
+    margin: 0px 0px 12px; 
+    padding: 12px; 
+    color: #3333; 
+    font-size: 24px;
+}
+#sizinicinCon #secilenler #puan {
+    height: 56px; 
+    font-size: 10px; 
+    padding: 0px 12px; 
+    color: #767676;
+}
+#sizinicinCon #secilenler #puan i {
+    font-size: 12px; 
+    color: green;
+}
+#sizinicinCon #secilenler #puan span{
+    opacity: 0.9; 
+    padding-left: 6px; 
+    padding-top: 2px;
+}
+#sizinicinCon #secilenler #sizinicinBtn {
+    height: 100%;
+}
