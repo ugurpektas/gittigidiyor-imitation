@@ -290,9 +290,23 @@ span {
     width: 210px; 
     padding-top: 10px;
 }
+#sizinicinCon #sizinicinUL li{
+    display: inline-block;
+    line-height: 50px;
+    padding: 0px 1em;
+    vertical-align: middle;
+    white-space: nowrap !important;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    cursor: pointer;
+}
 #sizinicinCon #sizinicinUL li:hover {
+    border-left: 3px solid blue !important;
     border-radius: 4px !important;
     font-size: 14px;
+    color: #2b50c2 !important;
+    background: rgb(184, 184, 248);
+    font-size: medium;
 }
 #sizinicinCon #secilenler {
     height: 506px; 
@@ -309,6 +323,7 @@ span {
     width: 222px; 
     border: 1px solid rgb(233, 222, 222); 
     border-radius: 4px;
+    cursor: pointer;
 }
 #sizinicinCon #secilenler #resim1,
                         #resim2,
@@ -349,3 +364,15 @@ span {
 #sizinicinCon #secilenler #sizinicinBtn {
     height: 100%;
 }
+
+/********Kazananlar-kulübü alanı*********/
+#kazananlarKulubu {
+    padding: 0;
+}
+#kazananlarKulubu img {
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/*******Aradığınız ne varsa bölümü*******/
+
