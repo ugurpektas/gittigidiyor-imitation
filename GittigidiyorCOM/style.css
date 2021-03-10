@@ -375,4 +375,33 @@ span {
 }
 
 /*******Aradığınız ne varsa bölümü*******/
+#araNeVarsa {
+    background: #fff;
+    padding: 24px 0px 20px 0px;
+    border-radius: 6px;
+}
+#araNeVarsa #ara1 {
+    margin: 0px 24px 16px 24px;
+    height: 42px;
+}
+#araNeVarsa #ara1 h2 {
+    font-size: 24px;
+    color: #333333;
+}
+#araNeVarsa #ara2 #resim {
+    width: 390px;
+    height: 260px;
+}
+#araNeVarsa #ara2 #aciklama {
+    margin-top: 12px;
+    font-size: 16px;
+    color: #333333;
+}
+#araNeVarsa #ara2 #etiket {
+    margin: 3px 0px 0px;
+    font-size: 12px;
+    color: #767676;
+}
+
+
 
