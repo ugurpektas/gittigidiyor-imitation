@@ -569,5 +569,76 @@ span {
     color: #3365f3;    
 }
 
+/*****İLGİLİ ÜRÜNLER BÖLÜMÜ******/
+#ilgiliurunler {
+    height: 2663px; 
+    background: #fff; 
+    border-radius: 6px;
+    padding-left: 0px !important;
+}
+#ilgiliurunler #ilgicontainer {
+    padding: 0px 20px;
+}
+#ilgiliurunler #ilgiyazi {
+    padding: 25px 20px 25px 10px; 
+    font-size: 24px; 
+    color: #333333;
+}
+#ilgiliurunler #ilgcon {
+    height: 551px; 
+    padding: 0px 10px 20px 10px;
+}
+
+
+#ilgiliurunler #ilgiitems {
+    padding: 8px; 
+    height: 533px; 
+    width: 282px; 
+    border: 1px solid rgb(240, 233, 233); 
+    border-radius: 4px; 
+    cursor: pointer;
+}
+#ilgiliurunler #ilgiresim {
+    width: 264px; 
+    height: 264px;
+}
+#ilgiliurunler #ilgiaciklama {
+    height: 80px; 
+    padding: 16px 12px 8px; 
+    margin: 0px 0px 3.5px;
+    font-size: 13px; 
+    color: #333333;
+}
+#ilgiliurunler #ilgifiyat {
+    height: 53px; 
+    background: #f4f4f4; 
+    margin: 0px 0px 12px; 
+    padding: 12px; 
+    font-size: 24px; 
+    color: #333333; 
+    font-weight: bold; 
+    border-radius: 6px;
+} 
+#ilgiliurunler #ilgipuan {
+    padding: 0px 12px; 
+    height: 56px;
+}
+
+#ilgiliurunler .btn {
+    display: none;
+}
+#ilgiliurunler #ilgiitems:hover{
+    border: none !important;
+    box-shadow: 1px 1px 1px 1px rgb(121, 118, 118);
+}
+#ilgiliurunler #ilgiitems:hover .btn{
+    display: block;
+}
+#ilgiliurunler #ilgiitems #ilgipuan {
+    display: block;
+}
+#ilgiliurunler #ilgiitems:hover #ilgipuan{
+    display: none ;
+}
 
 
