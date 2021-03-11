@@ -251,7 +251,7 @@ span {
 }
 
 /*Yıldız fırsatlar bölümü*/
-#hero .btn {
+#hero #urunler .btn {
     display: none;
 }
 #hero #urunler:hover{
@@ -406,6 +406,7 @@ span {
 #cokSatanlar {
     background: #fff;
     padding: 0px;
+    border-radius: 6px;
 }
 #cokSatanlar #coksatan1 {
     height: 78px;
@@ -489,17 +490,24 @@ span {
     opacity: 0.9;
     padding-left: 5px;
 }
-#cokSatanlar #coksatan2 #satanBtn {
+#cokSatanlar #altcont .btn {
     display: none;
 }
-#cokSatanlar #coksatan2 #altcont:hover {
-    border: none;
-    box-shadow: 3px;
-    font-weight: normal;  
+#cokSatanlar #urunler:hover{
+    border: none !important;
+    box-shadow: 1px 1px 1px 1px rgb(121, 118, 118);
 }
-#cokSatanlar #coksatan2 #altcont:hover #satanBtn {
-    display: block ;
+#cokSatanlar #altcont:hover .btn{
+    display: block;
 }
+#cokSatanlar #altcont #satanpuan {
+    display: block;
+}
+#cokSatanlar #altcont:hover #satanpuan{
+    display: none !important;
+}
+
+
 
 
 
