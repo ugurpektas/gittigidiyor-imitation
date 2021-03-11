@@ -419,6 +419,7 @@ span {
 #cokSatanlar #coksatan1 a {
     font-size: 14px;
     color: #3365f3 !important;
+    font-weight: bold;
 }
 #cokSatanlar #coksatan1 i {
     color: blue;
@@ -428,9 +429,10 @@ span {
     margin-top: -10px;
     padding: 10px 14px 0px 14px;
 }
-#cokSatanlar #coksatan2 #urun {
-    height: 535px !important;
-    padding-bottom: 20px;
+#cokSatanlar #coksatan2 #urunContainer {
+    height: 535px;
+    width: 222px;
+    padding-bottom: 20px !important;
 }
 #cokSatanlar #coksatan2 #urunisim {
     width: 222px;
@@ -440,37 +442,63 @@ span {
     border-bottom: 1px solid grey;
     cursor: pointer;
 }
-#cokSatanlar #coksatan2 #uruncont {
+
+#cokSatanlar #coksatan2 #urunisim a {
+    color: #3665f3 !important;
+    font-size: 14px;
+    
+}
+
+#cokSatanlar #coksatan2 #altcont {
     border: 1px solid rgb(233, 229, 229);
-    width: 222px;
+    width: 222px ;
+    height: 453px;
     border-radius: 4px;
     padding: 8px;
     cursor: pointer;
 }
-#cokSatanlar #coksatan2 #urunisim a {
-    color: #3665f3 !important;
-    font-size: 14px;
+
+#cokSatanlar #coksatan2 #coksatanresim {
+    width: 204px;
+    height: 204px;
 }
-#cokSatanlar #coksatan2 #aciklama {
+
+#cokSatanlar #coksatan2 #satanaciklama {
     padding: 16px 12px 8px;
     font-size: 14px;
     color: #333333;
 }
-#cokSatanlar #coksatan2 #fiyat {
+#cokSatanlar #coksatan2 #satanfiyat {
     background: #f4f4f4;
     margin: 0px 0px 12px;
     padding: 12px;
     height: 53px;
+    border-radius: 4px;
+    font-size: 24px;
 }
-#cokSatanlar #coksatan2 #puan i {
+#cokSatanlar #coksatan2 #satanpuan {
+    height: 56px;
+}
+#cokSatanlar #coksatan2 #satanpuan i {
     font-size: 12px; 
     color: green;
 }
-#cokSatanlar #coksatan2 #puan span {
+#cokSatanlar #coksatan2 #satanpuan span {
     font-size: 11px;
     color: #767676;
     opacity: 0.9;
     padding-left: 5px;
+}
+#cokSatanlar #coksatan2 #satanBtn {
+    display: none;
+}
+#cokSatanlar #coksatan2 #altcont:hover {
+    border: none;
+    box-shadow: 3px;
+    font-weight: normal;  
+}
+#cokSatanlar #coksatan2 #altcont:hover #satanBtn {
+    display: block ;
 }
 
 
