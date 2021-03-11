@@ -507,7 +507,67 @@ span {
     display: none !important;
 }
 
+/****Girişimciler Bölümü****/
+#girisimciler {
+    background: #fff; 
+    height: 340px; 
+    border-radius: 6px; 
+    padding: 0px;
+}
+#girisimciler #girisimcontainer {
+    height: 296px; 
+    padding: 24px 24px 20px 20px;
+}
+#girisimciler #isimler {
+    height: 296px; 
+    cursor: pointer;
+}
+#girisimciler #resm {
+    width: 390px; 
+    height: 260px;
+}
+#girisimciler #info {
+    margin: 12px 0px 0px; 
+    font-size: 16px; 
+    color: #333333;
+}
 
+/*POPÜLER KATEGORİLER BÖLÜMÜ*/
+#populer {
+    background: #fff; 
+    height: 330px; 
+    border-radius: 6px; 
+    padding: 0px;
+}
+#populer #popyazi {
+    height: 68px; 
+    padding: 24px 0px 16px 20px; 
+    font-size: 24px; 
+    color: #333333; 
+    font-weight: bold;
+}
+#populer #popcontainer {
+    height: 262px;
+    padding: 0px 10px 24px 10px;
+}
+#populer #popcontainer #popitems {
+    height: 228px; 
+    padding: 0px 13px; 
+    cursor: pointer;
+}
+#populer #popcontainer #popresim {
+    width: 177px; 
+    height: 177px;
+}
+#populer #popcontainer #popinfo {
+    height: 34px; 
+    margin:16px 0px 0px; 
+    color: #333333; 
+    font-size: 15px;
+}
+#populer #popcontainer #popinfo:hover {
+    color: #3365f3;    
+}
 
 
 
