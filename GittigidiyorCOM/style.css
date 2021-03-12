@@ -49,6 +49,7 @@ span {
 /*üst-header*/
 #main-header { 
     background: #fff;
+    position: relative;
 }
 #header1 ul li {
     margin-left: 12px;
@@ -57,7 +58,7 @@ span {
     font-family: Roboto, Arial, sans-serif;
     font-size: 0.72em;
     font-weight: normal;
-    opacity: 0.9;
+    opacity: 0.9;  
 }
 #header1 ul li:hover {
     border-radius: 30px;
@@ -181,8 +182,8 @@ span {
 	background: #fff !important;
 	width: 100%;
     height: 505px !important;
-	top: 184px;
-    left: 234px;
+	top: 100%;
+    left: 0 auto;
 	z-index: 1;
     padding: 20px 50px 30px 50px;
     opacity: none !important;
