@@ -585,25 +585,55 @@ span {
     color: #333333;
 }
 #ilgiliurunler #ilgcon {
-    height: 551px; 
+    height: 571px; 
     padding: 0px 10px 20px 10px;
 }
-
+/**/
+#ilgiliurunler #sira2 #ilgcon {
+    height: 503px !important;
+}
+#ilgiliurunler #sira3 #ilgcon {
+    height: 503px !important;
+}
+#ilgiliurunler #sira4 #ilgcon {
+    height: 503px !important;
+}
+#ilgiliurunler #sira5 #ilgcon {
+    height: 503px !important;
+}
+#ilgiliurunler #ilgcon:hover #ilgipuan {
+    display: none !important;
+}
+/***/
 
 #ilgiliurunler #ilgiitems {
     padding: 8px; 
-    height: 533px; 
+    height: 551px; 
     width: 282px; 
     border: 1px solid rgb(240, 233, 233); 
     border-radius: 4px; 
     cursor: pointer;
 }
+/**/
+#ilgiliurunler #sira2 #ilgiitems {
+    height: 483px !important;
+}
+#ilgiliurunler #sira3 #ilgiitems {
+    height: 483px !important;
+}
+#ilgiliurunler #sira4 #ilgiitems {
+    height: 483px !important;
+}
+#ilgiliurunler #sira5 #ilgiitems {
+    height: 483px !important;
+}
+/***/
 #ilgiliurunler #ilgiresim {
     width: 264px; 
     height: 264px;
 }
 #ilgiliurunler #ilgiaciklama {
-    height: 80px; 
+    height: 80px !important; 
     padding: 16px 12px 8px; 
     margin: 0px 0px 3.5px;
     font-size: 13px; 
@@ -626,6 +656,21 @@ span {
 
 #ilgiliurunler .btn {
     display: none;
+}
+#ilgiliurunler #sira1 .btn {
+    margin-top: 85px;
+}
+#ilgiliurunler #sira2 .btn {
+    margin-top: 16px ;
+}
+#ilgiliurunler #sira3 .btn {
+    margin-top: 16px ;
+}
+#ilgiliurunler #sira4 .btn {
+    margin-top: 16px ;
+}
+#ilgiliurunler #sira5 .btn {
+    margin-top: 16px ;
 }
 #ilgiliurunler #ilgiitems:hover{
     border: none !important;
