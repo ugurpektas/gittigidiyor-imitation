@@ -143,12 +143,11 @@ span {
     background-color: rgb(244, 244, 244);
 }
 
-#header3 #malzeme h1 {
-    text-align: center;
-    align-items: center !important;
-    font-size: 0.8em !important;
+#header3 #malzeme .mega {
+    align-items: center;
+    font-size: 14px;
     font-weight: normal;
-    line-height: 8px;
+    line-height: 18px;
     text-decoration: none;
     padding: 0px 35px;
     color: rgb(85, 85, 85);
@@ -687,4 +686,87 @@ span {
     display: none ;
 }
 
-
+/*****************FOOTER BÖLÜMÜ***************/
+#footer {
+    height: 1010px;
+    padding: 50px 0px 30px 0px;
+    background: #fff;
+}
+#mainfooter {
+    width: 1263px;
+    height: 929px;
+    margin: 0 auto !important;
+}
+#footer .footerinfo {
+    width: 932px;
+    height: 332px;
+    padding: 0px 8px;
+}
+#footer .h3 {
+    font-size: 24px;
+    color: #333333;
+    padding: 0px 0px 26.88px;
+}
+#footer .paragraf {
+    font-size: 0.75em;
+    font-weight: normal;
+    color: rgb(51, 51, 51);
+    margin: 0px 0px 15px;
+    padding: 7.44px 22.44px 0px 0px;
+    width: 930px;
+    height: 260px;
+    line-height: 1.8em;
+    border-right: 1px solid rgb(240, 234, 234);
+}
+#footer .footerimg {
+    width: 307px;
+    height: 332px;
+    padding: 0px 8px;
+}
+#footer .footerresim {
+    width: 166px;
+    height: 280px;
+    padding: 0px 8px;
+}
+#footer .en {
+    width: 134.5px;
+    height: 134.5px;
+    margin: 56px 0px 0px;
+}
+#footer .sup {
+    width: 134.5px;
+    height: 236px;
+    margin: 40px 0px 0px;
+}
+#footer .row {
+    padding: 35px 8px 0px 8px !important;
+}
+#footer .col {
+    padding: 0px 8px;
+}
+#footer .col h3 {
+    font-size: 24px;
+    padding: 0px 0px 18px;
+    margin: 0px;
+}
+#footer .col-6 h4 {
+    font-size: 24px;
+    padding: 0px 0px 18px;
+    margin: 0px;
+}
+#footer .col ul {
+    margin: 0px;
+    padding: 0px;
+    cursor: pointer;
+}
+#footer .col ul li {
+    font-size: 0.75em;
+    padding: 0px 0px 5px;
+    line-height: 20px;
+    color: rgb(51, 51, 51);
+    font-weight: normal;
+}
+#footer .col ul li:hover {
+    text-decoration: underline;
+    color: #3365f3;
+}
