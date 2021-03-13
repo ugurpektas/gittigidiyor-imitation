@@ -51,6 +51,13 @@ span {
     background: #fff;
     position: relative;
 }
+#main-header #list1cont {
+    height: 43px;
+}
+#main-header #list1cont #list1 {
+    height: 43px;
+    margin-left: 278px;
+}
 #header1 ul li {
     margin-left: 12px;
     margin-right: 12px;
@@ -66,6 +73,23 @@ span {
     padding: 0 5px;
 }
 /*Orta-header*/
+#header2 #image {
+    width: 263px; 
+    height: 70px; 
+    padding: 0px 8px;
+}
+#header2 #image img {
+    padding: 0px 8px;
+}
+#header2 #search {
+    width: 737px; 
+    height: 70px; 
+    padding: 0px 8px;
+}
+#header2 .input-group-text {
+    background: #fff; 
+    border: none;
+}
 #inputs {
     border: 2px solid rgb(54, 101, 243);
     border-radius: 0.375em 0px 0px 0.375em;
@@ -105,49 +129,69 @@ span {
 }
 
 /***********LOGİNS & BASKETS***********/
+#header2 #login-basket {
+    padding: 0px 8px; 
+    width: 263px; 
+    height: 70px;
+}
 /*icons*/
-#login-basket i {
+#header2 #login-basket i {
     color:  rgb(54, 101, 243);
+    font-size: 24px;
 }
 /*login*/
-#login {
+#header2 #login {
     padding-right: 20px;
     padding-bottom: 5px;
     padding-left: 5px;
     font-size: 14px;
+    width: 133px; 
+    height: 37px;
 }
-#login #span1 {
+#header2 #login #span1 {
     display: block;
     padding-left: 5px;
     color: rgb(51, 51, 51);
 }
-#login #span2 {
+#header2 #login #span2 {
     display: block;
     padding-left: 5px;
     font-size: 9.4px;
 }
+#header2 #login #giris {
+    padding-left: 5px;
+}
 /*basket*/
-#basket {
+#header2 #login-basket #basket {
     padding-right: 20px;
     padding-bottom: 5px;
     padding-left: 5px;
     font-size: 14px;
+    width: 98px; 
+    height: 35px;
 }
-#basket span {
+#header2 #login-basket #basket span {
     display: inline-block;
     padding-left: 5px;
     color: rgb(51, 51, 51);
 }
+#header2 #login-basket #sep {
+    padding-left: 5px;
+}
 /****Alt-Header*****/
 #header3 {
     background-color: rgb(244, 244, 244);
+    height: 56px; 
+    margin-top: 15px;
 }
-
+#header3 #malzeme {
+    height: 56px; 
+    cursor: pointer;
+}
 #header3 #malzeme .mega {
-    align-items: center;
     font-size: 14px;
     font-weight: normal;
-    line-height: 18px;
+    line-height: 16px;
     text-decoration: none;
     padding: 0px 35px;
     color: rgb(85, 85, 85);
@@ -162,10 +206,38 @@ span {
                   #kitap:hover,
                   #oto:hover,
                   #spor:hover {
-    color: rgb(54, 101, 243) !important;
     border-bottom: 3px solid rgb(54, 101, 243);
 }
-
+.spancolor {
+    color: #555555;
+}
+#header3 #malzeme #elk:hover span {
+    color: rgb(54, 101, 243) !important;
+}
+#header3 #malzeme #ev:hover span {
+    color: rgb(54, 101, 243) !important;
+}
+#header3 #malzeme #moda:hover span {
+    color: rgb(54, 101, 243) !important;
+}
+#header3 #malzeme #kozmetik:hover span {
+    color: rgb(54, 101, 243) !important;
+}
+#header3 #malzeme #anne:hover span {
+    color: rgb(54, 101, 243) !important;
+}
+#header3 #malzeme #market:hover span {
+    color: rgb(54, 101, 243) !important;
+}
+#header3 #malzeme #kitap:hover span {
+    color: rgb(54, 101, 243) !important;
+}
+#header3 #malzeme #oto:hover span {
+    color: rgb(54, 101, 243) !important;
+}
+#header3 #malzeme #spor:hover span {
+    color: rgb(54, 101, 243) !important;
+}
 
 
 #header3 #malzeme h1:hover {
@@ -182,7 +254,7 @@ span {
 	width: 100%;
     height: 505px !important;
 	top: 100%;
-    left: 0 auto;
+    left: 320px;
 	z-index: 1;
     padding: 20px 50px 30px 50px;
     opacity: none !important;
@@ -228,8 +300,6 @@ span {
     color: blue !important;   
 }
 
-
-/*************************************/
 /***********SECTİON BÖLÜMÜ**********/
 
 /* BODY-HERO-GENEL*/
@@ -238,6 +308,10 @@ span {
     border-top: 1px solid rgb(209, 207, 207);  
     padding:16px 0px;
     background: #eeeeee;
+    position: relative;
+}
+#hero #heromaincont {
+    padding: 0px 8px !important;
 }
 
 #hero #mozbey img {
@@ -245,12 +319,119 @@ span {
 }
 
 /*SLIDER BÖLÜMÜ*/
+#hero .littleimage {
+    width: 65px; 
+    height: 81px;
+}
+#hero .bigimage {
+    padding: 0;
+}
+#hero #kucukresimler {
+    height: 95px; 
+    padding:14px 24px 16px 24px; 
+    background: #fff;
+}
 #hero .container #kucukresimler div:hover{
     border-bottom: 3px solid rgb(54, 101, 243);
     border-radius: 2px;
 }
+/*TÜMÜNÜ KEŞFET BÖLÜMÜ*/
+#hero #tumunukesfet .one {
+    height: 79px; 
+    background: #fff; 
+    padding: 25px 24px 25px 24px;
+}
+#hero #tumunukesfet #kesif {
+    color: #333; 
+    font-size: 24px;
+}
+#hero #tumunukesfet #kesfet a {
+    color: #3665f3 !important; 
+    font-size: 14px !important; 
+    font-weight: bold;
+}
+#hero #tumunukesfet #kesfet i {
+    font-size: 14px; 
+    font-weight: bold; 
+    color: #3665f3;
+}
+
+#hero #tumunukesfet .two {
+    height: 406px; 
+    padding: 0px 24px 24px; 
+    background: #fff;
+}
+#hero #tumunukesfet #kesifresim img {
+    width: 280px;
+    height: 376px;
+    cursor: pointer;
+}
 
 /*Yıldız fırsatlar bölümü*/
+#yildizfirsatlar {
+    border-radius: 6px;
+}
+#yildizfirsatlar #yildizinfo {
+    height: 79px; 
+    background: #fff; 
+    padding: 25px 20px 25px 25px;
+}
+#yildizfirsatlar #yildizinfo #firsat {
+    color: #333; 
+    font-size: 24px;
+}
+#yildizfirsatlar #firsat2 a {
+    color: #3665f3 !important; 
+    font-size: 14px !important; 
+    font-weight: bold;
+}
+#yildizfirsatlar #firsat2 i {
+    font-size: 14px; 
+    color: #3665f3; 
+    font-weight: bold;
+}
+#yildizfirsatlar .col-12 {
+    height: 490px; 
+    margin-top: -10px; 
+    padding: 10px 25px 0px 25px; 
+    background: #fff;
+}
+#yildizfirsatlar #mainurunler {
+    padding: 0px 10px;
+}
+#yildizfirsatlar #mainurunler #urunler {
+    padding: 8px; 
+    height: 465px; 
+    width: 222px; 
+    border: 1px solid rgb(233, 222, 222); 
+    border-radius: 4px; 
+    cursor: pointer;
+} 
+#yildizfirsatlar #urunler #urunimage {
+    height: 204px;
+}
+#yildizfirsatlar #urunler #urunisimleri {
+    height: 80px; 
+    padding: 16px 12px 8px; 
+    font-size: 14px; 
+    margin: 0px 0px 3.5px;
+}
+#yildizfirsatlar #urunler #urunfiyatlari {
+    background: #f4f4f4; 
+    margin: 0px 0px 12px; 
+    padding: 12px; 
+    color: #3333; 
+    font-size: 24px;
+}
+#yildizfirsatlar #urunler #puan {
+    height: 56px; 
+    font-size: 10px; 
+    padding: 0px 12px; 
+    color: #767676;
+}
+#yildizfirsatlar #urunler #urunBtn {
+    height: 100% !important;
+}
 #hero #urunler .btn {
     display: none;
 }
@@ -266,6 +447,57 @@ span {
 }
 #hero #urunler:hover #puan{
     display: none !important;
+}
+/******ÖNE ÇIKAN MARKALAR BÖLÜMÜ******/
+#onecikanmarkalar {
+    height: 442px; 
+    background: #fff; 
+    margin-bottom: 16px; 
+    padding-top: 24px; 
+    padding-bottom: 20px;
+}
+#onecikanmarkalar #onecikan {
+    height: 382px;
+}
+#onecikanmarkalar #onecikancon {
+    margin: 0px 24px 16px 24px;
+}
+#onecikanmarkalar #onecikanisim {
+    color: #333; 
+    font-size: 24px; 
+    line-height: normal;
+}
+#onecikanmarkalar #onecikankesfet a {
+    color: #3665f3 !important; 
+    font-size: 14px !important; 
+    font-weight: bold;
+}
+#onecikanmarkalar #onecikankesfet i {
+    font-weight: bold; 
+    font-size: 14px; 
+    color: #3665f3;
+}
+#onecikanmarkalar #onecikan2 {
+    height: 280px;
+}
+#onecikanmarkalar #onecikan2 .col {
+    width: 389px;
+    
+}
+#onecikanmarkalar #onecikan3 {
+    height: 66px;
+}
+#onecikanmarkalar #onecikan3  img {
+    width: 66px;
+    height: 66px;
+}
+#onecikanmarkalar #onecikan3 .onecikans {
+    height: 66px; 
+    margin-right: 20px;
+}
+#onecikanmarkalar #onecikan3 .onecikans2{
+    font-size: 16px; 
+    height: 66px;
 }
 
 /*********Sizin için seçtiklerimiz BÖLÜMÜ*******/

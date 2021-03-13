@@ -19,11 +19,11 @@
   </head>
   <body>
     
-    <header id="main-header" style="color: #fff;">
-
+    <header id="main-header" class="ps-3">
+        
         <div id="header1" class="container">
-            <div class="row" style="height: 43px;">
-                <div class="col d-flex align-items-center" style="margin-left: 264px;">
+            <div id="list1cont" class="row">
+                <div id="list1" class="col d-flex align-items-center">
                     <ul class="list-group list-group-horizontal">
                         <li><a href="#">Yıldız Fırsatlar</a></li>
                         <li><a href="#">Tüm Kampanyalar</a></li>
@@ -39,31 +39,32 @@
             </div>
         </div>
 
-        <div id="header2" class="container">
+        <div id="header2" class="container mx-auto">
             
                 <div class="row d-flex flex-row justify-content-center">
-                    <div id="image" class="col-md-8" style="width: 247px; height: 67px; padding: 0px 8px;">
+                    <div id="image">
                         <img src="https://mcdn01.gittigidiyor.net/cdimg/anasayfa/nucleus/gg-logo.svg" alt="GittiGidiyor" class="img-fluid">
-                    </div>
+                    </div>    
     
-    
-                    <div id="search" class="d-flex align-items-center col-md-8" style="width: 737px; height: 70px; padding: 0px 8px;">
+                    <div id="search" class="d-flex align-items-center">
                         <div id="inputs" class="input-group">
-                            <span class="input-group-text pt-2" style="background: #fff; border: none;"><img src="/img/search20px.png" alt="search"> </span>
+                            <span class="input-group-text pt-2">
+                                <img src="/img/search20px.png" alt="search">
+                            </span>
                             <input type="text" class="form-control inp" placeholder="Evde Kal Sağlıklı Kal" aria-label="Recipient's username" aria-describedby="searchBtn1">                        
                         </div>
                            <button class="btn" type="button" id="searchBtn1">BUL</button>  
                     </div>
     
-                    <div id="login-basket" class="d-flex align-items-center justify-content-center col-md-8" style="padding: 0px 8px; width: 275px; height: 70px;">
+                    <div id="login-basket" class="d-flex align-items-center justify-content-center">
                                                             
-                                <div id="login" class="d-flex align-items-center log" style="width: 133px; height: 37px;">                                
+                                <div id="login" class="d-flex align-items-center log">                                
                                     <div id="svg">
                                         <a href="#" class="log" >
                                             <i class="icon-people popover-dismiss log" style="font-size: 24px;" data-bs-toggle="popover" data-bs-trigger="hover" data-bs-placement="bottom" title="" data-bs-content="Giriş Yap"></i>
                                         </a>                                        
                                     </div>
-                                    <div id="giris" style="padding-left: 5px;">
+                                    <div id="giris">
                                         <a href="#" class="log">
                                             <span id="span1" class="log">Giriş Yap</span>
                                             <span id="span2" class="log">veya Üye Ol</span>
@@ -71,13 +72,13 @@
                                     </div>             
                                 </div>
 
-                                <div id="basket" class="d-flex align-items-center bas" style="width: 98px; height: 35px;">
+                                <div id="basket" class="d-flex align-items-center bas">
                                     <div id="bask">
                                         <a href="#">
                                             <i class="icon-shopping popover-dismiss" style="font-size: 24px;" data-bs-toggle="popover" data-bs-trigger="hover" data-bs-placement="bottom" title="Alışveriş sepeti" data-bs-content="Ürün bulunamadı." style="font-size: 24px;"></i>
                                         </a>                                    
                                     </div>
-                                    <div style="padding-left: 5px;">
+                                    <div id="sep">
                                         <a href="#">
                                             <span id="span3">Sepet</span>
                                         </a>                                    
@@ -87,13 +88,13 @@
                 </div>      
         </div>
 
-        <div id="header3" style="height: 56px; margin-top: 15px;">
+        <div id="header3">
             <div class="container">
                 <div id="relat" class="row">
-                    <div id="malzeme" class="col-md d-flex flex-row align-items-center justify-content-between" style="height: 56px; cursor: pointer;">                        
+                    <div id="malzeme" class="col d-flex flex-row align-items-center justify-content-between">                        
 
-                            <div id="elk" class="h-100 mega d-flex"> <span class="d-flex pt-3">Elektronik</span> 
-                                
+                            <div id="elk" class="h-100 mega d-flex align-items-center">
+                                <span class="spancolor">Elektronik</span>                                
                                 <div id="megacontainer" class="container">
                                     <div class="row">
                                       <div class="col">
@@ -152,14 +153,37 @@
                                 </div>  
                             
                             </div>
-                            <div id="ev" class="mega" style="height: 100%; padding-top: 18px;"> Ev,Bahçe,Ofis,<br>Yapı Market</div>
-                            <div id="moda" class="mega" style="height: 100%; padding-top: 25px;">Moda</div>
-                            <div id="kozmetik" class="mega" style="height: 100%; padding-top: 18px;">Kozmetik,<br> Kişisel Bakım</div>
-                            <div id="anne" class="mega" style="height: 100%; padding-top: 18px;">Anne, <br> Bebek</div>
-                            <div id="market" class="mega" style="height: 100%; padding-top: 18px;">Süpermarket, <br> Evcil Hayvan</div>
-                            <div id="kitap" class="mega" style="height: 100%; padding-top: 18px;">Kitap,Müzik, <br> Oyuncak,Hobi</div>
-                            <div id="oto" class="mega" style="height: 100%; padding-top: 18px;">Otomobil, <br> Motosiklet</div>
-                            <div id="spor" class="mega" style="height: 100%; padding-top: 18px;">Spor, <br> Outdoor</div> 
+                            <div id="ev" class="h-100 mega d-flex align-items-center justify-content-center">
+                               <span class="spancolor"> Ev,Bahçe,Ofis,<br>
+                                 Yapı Market</span>
+                            </div>
+                            <div id="moda" class="h-100 mega d-flex align-items-center justify-content-center">
+                               <span class="spancolor">Moda</span> 
+                            </div>
+                            <div id="kozmetik" class="h-100 mega d-flex align-items-center justify-content-center">
+                              <span class="spancolor">     Kozmetik,<br> 
+                                Kişisel Bakım</span>
+                            </div>
+                            <div id="anne" class="h-100 mega d-flex align-items-center justify-content-center">
+                            <span class="spancolor">    Anne,<br> 
+                                Bebek</span>
+                            </div>
+                            <div id="market" class="h-100 mega d-flex align-items-center justify-content-center">
+                            <span class="spancolor">    Süpermarket,<br> 
+                                Evcil Hayvan</span>
+                            </div>
+                            <div id="kitap" class="h-100 mega d-flex align-items-center justify-content-center">
+                            <span class="spancolor">     Kitap,Müzik,<br> 
+                                Oyuncak,Hobi</span>
+                            </div>
+                            <div id="oto" class="h-100 mega d-flex align-items-center justify-content-center">
+                            <span class="spancolor">     Otomobil,<br> 
+                                Motosiklet</span>
+                            </div>
+                            <div id="spor" class="h-100 mega d-flex align-items-center justify-content-center">
+                            <span class="spancolor">      Spor,<br> 
+                                Outdoor</span>
+                            </div> 
 
                     </div>
                 </div>
@@ -168,8 +192,8 @@
 
     </header>
 
-    <section id="hero" class="position-relative">
-        <div class="container d-grid gap-3" style="padding: 0px 8px !important;">
+    <section id="hero">
+        <div id="heromaincont" class="container d-grid gap-3">
             
             <div id="mozbeyrow" class="row">
                 <div id="mozbey" class="col">
@@ -180,66 +204,66 @@
 
             <div class="container">
                 <div id="haftasonu" class="row">
-                    <div id="#buyukresim" class="col-12" style="padding: 0;">
+                    <div id="#buyukresim" class="col-12 bigimage">
                         <a href="#">
                             <img src="https://mcdn01.gittigidiyor.net/ps/haftasou_banner_1614867261.jpg?type=homepageV2&index=2" class="img-fluid rounded-top" alt="haftasonu">
                         </a>
                     </div>
-                    <div id="kucukresimler" class="col-12 d-flex flex-row justify-content-center rounded-bottom" style="height: 95px; padding:14px 24px 16px 24px; background: #fff;">
-                            <div id="kucukresim1" class="pe-2" style="width: 65px; height: 81px;">
+                    <div id="kucukresimler" class="col-12 d-flex flex-row justify-content-center rounded-bottom">
+                            <div id="kucukresim1" class="pe-2 littleimage">
                                 <a href="#">
                                     <img src="https://mcdn01.gittigidiyor.net/ps/simge_1614860885.jpg?type=homepageV2&index=1" class="img-fluid" alt="mamaslife">
                                 </a>
                             </div>
-                            <div id="kucukresim2" class="pe-2" style="width: 65px; height: 81px;">
+                            <div id="kucukresim2" class="pe-2 littleimage">
                                 <a href="#"><img src="https://mcdn01.gittigidiyor.net/ps/simge_1602253821.jpg?type=homepageV2&index=2" class="img-fluid" alt="mamaslife">
                                 </a>
                             </div>
-                            <div id="kucukresim3" class="pe-2" style="width: 65px; height: 81px;">
+                            <div id="kucukresim3" class="pe-2 littleimage">
                                 <a href="#"><img src="https://mcdn01.gittigidiyor.net/ps/simge_1614543979.jpg?type=homepageV2&index=3" class="img-fluid" alt="mamaslife">
                                 </a>
                             </div>
-                            <div id="kucukresim4" class="pe-2" style="width: 65px; height: 81px;">
+                            <div id="kucukresim4" class="pe-2 littleimage">
                                 <a href="#"><img src="https://mcdn01.gittigidiyor.net/ps/redbullanasayfasimge_1614949455.jpg?type=homepageV2&index=4" class="img-fluid" alt="mamaslife">
                                 </a>
                             </div>
-                            <div id="kucukresim5" class="pe-2" style="width: 65px; height: 81px;">
+                            <div id="kucukresim5" class="pe-2 littleimage">
                                 <a href="#"><img src="https://mcdn01.gittigidiyor.net/ps/bahceanasayfasimge_1614949620.jpg?type=homepageV2&index=5" class="img-fluid" alt="mamaslife">
                                 </a>
                             </div>
-                            <div id="kucukresim6" class="pe-2" style="width: 65px; height: 81px;">
+                            <div id="kucukresim6" class="pe-2 littleimage">
                                 <a href="#"><img src="https://mcdn01.gittigidiyor.net/ps/guvenlikanasayfasimge_1614345406.jpg?type=homepageV2&index=6" class="img-fluid" alt="mamaslife">
                                 </a>
                             </div>
-                            <div id="kucukresim7" class="pe-2" style="width: 65px; height: 81px;">
+                            <div id="kucukresim7" class="pe-2 littleimage">
                                 <a href="#"><img src="https://mcdn01.gittigidiyor.net/ps/simge_1614949955.jpg?type=homepageV2&index=7" class="img-fluid" alt="mamaslife">
                                 </a>
                             </div>
-                            <div id="kucukresim8" class="pe-2" style="width: 65px; height: 81px;">
+                            <div id="kucukresim8" class="pe-2 littleimage">
                                 <a href="#"><img src="https://mcdn01.gittigidiyor.net/ps/xsimge_1612636818.jpg?type=homepageV2&index=8" class="img-fluid" alt="mamaslife">
                                 </a>
                             </div>
-                            <div id="kucukresim9" class="pe-2" style="width: 65px; height: 81px;">
+                            <div id="kucukresim9" class="pe-2 littleimage">
                                 <a href="#"><img src="https://mcdn01.gittigidiyor.net/ps/tvsessimge_1612277165.jpg?type=homepageV2&index=9" class="img-fluid" alt="mamaslife">
                                 </a>
                             </div>
-                            <div id="kucukresim10" class="pe-2" style="width: 65px; height: 81px;">
+                            <div id="kucukresim10" class="pe-2 littleimage">
                                 <a href="#"><img src="https://mcdn01.gittigidiyor.net/ps/okuladonusanasayfasimge_1614924546.jpg?type=homepageV2&index=10" class="img-fluid" alt="mamaslife">
                                 </a>
                             </div>
-                            <div id="kucukresim11" class="pe-2" style="width: 65px; height: 81px;">
+                            <div id="kucukresim11" class="pe-2 littleimage">
                                 <a href="#"><img src="https://mcdn01.gittigidiyor.net/ps/newlastiksimge_1614950620.jpg?type=homepageV2&index=11" class="img-fluid" alt="mamaslife">
                                 </a>
                             </div>
-                            <div id="kucukresim12" class="pe-2" style="width: 65px; height: 81px;">
+                            <div id="kucukresim12" class="pe-2 littleimage">
                                 <a href="#"><img src="https://mcdn01.gittigidiyor.net/ps/casperanasayfasimge_1614865495.jpg?type=homepageV2&index=12" class="img-fluid" alt="mamaslife">
                                 </a>
                             </div>
-                            <div id="kucukresim13" class="pe-2" style="width: 65px; height: 81px;">
+                            <div id="kucukresim13" class="pe-2 littleimage">
                                 <a href="#"><img src="https://mcdn01.gittigidiyor.net/ps/vprimasimge_1614930800.jpg?type=homepageV2&index=13" class="img-fluid" alt="mamaslife">
                                 </a>
                             </div>
-                            <div id="kucukresim14" class="pe-2" style="width: 65px; height: 81px;">
+                            <div id="kucukresim14" class="pe-2 littleimage">
                                 <a href="#"><img src="https://mcdn01.gittigidiyor.net/ps/hpsimge_1613419386.jpg?type=homepageV2&index=14" class="img-fluid" alt="mamaslife">
                                 </a>
                             </div>
@@ -247,20 +271,20 @@
                 </div>
             </div>
             
-            <div class="container">
+            <div id="tumunukesfet" class="container">
                 <div class="row">
-                    <div class="col-12 d-flex flex-row justify-content-between align-items-center rounded-top" style="height: 79px; background: #fff; padding: 25px 20px 25px 30px;">
-                        <div id="kesif" style="color: #333; font-size: 24px;">
+                    <div class="col-12 d-flex flex-row justify-content-between align-items-center one">
+                        <div id="kesif">
                             Haftanın Keşifleri
                         </div>
                         <div id="kesfet">
-                            <a href="#" style="color: #3665f3 !important; font-size: 14px !important;">Tümünü Keşfet <i id="right" class="icon-right" style="font-size: 14px; color: #3665f3;"></i> </a>
+                            <a href="#">Tümünü Keşfet <i id="right" class="icon-right"></i> </a>
                         </div>
                     </div>
-                    <div class="col-12 rounded-bottom" style="height: 406px; padding: 0px 24px 24px; background: #fff;">
-                        <div class="row gx-3">
-                            <div class="col" >
-                                <img src="https://mcdn01.gittigidiyor.net/ps/kesfet_1614862838.jpg" style="height: 376px;" class="img-fluid rounded" alt="mamaslife">
+                    <div class="col-12 two" >
+                        <div id="kesifresim" class="row d-flex justify-content-between">
+                            <div class="col">
+                                <img src="https://mcdn01.gittigidiyor.net/ps/kesfet_1614862838.jpg" class="img-fluid rounded" alt="mamaslife">
                             </div>
                             <div class="col">
                                 <img src="https://mcdn01.gittigidiyor.net/ps/_x_1614759821.jpg" class="img-fluid rounded" alt="trendkoltuk">
@@ -286,47 +310,47 @@
 
             <div class="container" id="yildizfirsatlar">
                 <div class="row">
-                    <div class="col-12 d-flex flex-row justify-content-between align-items-center rounded-top" style="height: 79px; background: #fff; padding: 25px 20px 25px 30px;">
-                        <div id="firsat" style="color: #333; font-size: 24px;">
+                    <div id="yildizinfo" class="col-12 d-flex flex-row justify-content-between align-items-center">
+                        <div id="firsat">
                             Yıldız Fırsatlar
                         </div>
                         <div id="firsat2">
-                            <a href="#" style="color: #3665f3 !important; font-size: 14px !important;">+59576 Fırsatı Daha Gör<i id="right" class="icon-right" style="font-size: 14px; color: #3665f3;"></i> </a>
+                            <a href="#">+59576 Fırsatı Daha Gör <i id="right" class="icon-right"></i></a>
                         </div>
                     </div>
 
-                    <div class="col-12 rounded-bottom" style="height: 490px;margin-top: -10px; padding: 10px 14px 0px 14px; background: #fff;">                        
-                        <div class="row d-flex flex-row" style="padding-left: 14px;">
+                    <div class="col-12">                        
+                        <div id="mainurunler" class="row d-flex flex-row justify-content-between">
 
-                                    <div id="urunler" class="d-flex flex-column" style="padding: 8px; height: 465px; width: 222px; border: 1px solid rgb(233, 222, 222); border-radius: 4px;" >
-                                                <div style="height: 204px;">
-                                                    <img src="https://mcdn01.gittigidiyor.net/61454/tn30/614542472_tn30_0.jpg" width="203px" height="203px" class="img-fluid rounded" alt="ekran">
+                                    <div id="urunler" class="d-flex flex-column">
+                                                <div id="urunimage">
+                                                    <img src="https://mcdn01.gittigidiyor.net/61454/tn30/614542472_tn30_0.jpg" class="img-fluid rounded" alt="ekran">
                                                 </div>
-                                                <div style="height: 80px; padding: 16px 12px 8px; font-size: 14px; margin: 0px 0px 3.5px;">
-                                                    <span>Mario MR39650 39" HD</span>
-                                                    <span>Smart LED TV</span>                                    
+                                                <div id="urunisimleri" class="d-flex">
+                                                    Mario MR39650 39" HD <br>
+                                                    Smart LED TV                                    
                                                 </div>
-                                                <div style="background: #f4f4f4; margin: 0px 0px 12px; padding: 12px; color: #3333; font-size: 24px;">
+                                                <div id="urunfiyatlari">
                                                     <span>1.742,62 TL</span>
                                                 </div>
-                                                <div id="puan" class="d-flex flex-row align-items-start" style="height: 56px; font-size: 10px; padding: 0px 12px; color: #767676;">
+                                                <div id="puan" class="d-flex flex-row align-items-start">
                                                     <i class="icon-shopping" style="font-size: 12px; color: green;"></i>
                                                     <span style="opacity: 0.9; padding-left: 6px; padding-top: 2px;">Ücretsiz Kargo</span>
                                                 </div>
-                                                <div id="btnS1" class="d-flex align-items-end" style="height: 100%;">
+                                                <div id="urunBtn" class="d-flex align-items-end">
                                                     <button type="submit" class="btn btn-primary w-100">Sepete Ekle</button>
                                                 </div>
                                     </div>
 
-                                    <div id="urunler" class="d-flex flex-column ms-3" style="padding: 8px; height: 465px; width: 222px; border: 1px solid rgb(233, 222, 222); border-radius: 4px;" >
-                                        <div style="height: 204px;">
-                                            <img src="https://mcdn01.gittigidiyor.net/65449/tn30/654499575_tn30_0.jpg" width="203px" height="203px" class="img-fluid rounded" alt="ekran">
+                                    <div id="urunler" class="d-flex flex-column ms-3">
+                                        <div id="urunimage">
+                                            <img src="https://mcdn01.gittigidiyor.net/65449/tn30/654499575_tn30_0.jpg"class="img-fluid rounded" alt="ekran">
                                         </div>
-                                        <div style="height: 80px; padding: 16px 12px 8px; font-size: 14px; margin: 0px 0px 3.5px;">
+                                        <div id="urunisimleri" class="d-flex">
                                             <span>Vestel AO-7115 B-W Ocak</span>
                                                                                 
                                         </div>
-                                        <div style="background: #f4f4f4; margin: 0px 0px 12px; padding: 12px; color: #3333; font-size: 24px;">
+                                        <div id="urunfiyatlari">
                                             <span>1.231,00 TL</span>
                                         </div>
                                         <div id="puan" class="d-flex flex-column" style="height: 56px; font-size: 10px; padding: 0px 12px; color: #767676;">
@@ -336,70 +360,70 @@
                                                  <span style="opacity: 0.9; padding-left: 6px;">Ücretsiz Kargo</span>
                                              </div>
                                         </div>
-                                        <div id="btnS2" class="d-flex align-items-end " style="height: 100%;">
+                                        <div id="urunBtn" class="d-flex align-items-end">
                                             <button type="submit" class="btn btn-primary w-100">Sepete Ekle</button>
                                         </div>
                                     </div>
 
-                                    <div id="urunler" class="d-flex flex-column ms-3" style="padding: 8px; height: 465px; width: 222px; border: 1px solid rgb(233, 222, 222); border-radius: 4px;" >
-                                        <div style="height: 204px;">
-                                            <img src="https://mcdn01.gittigidiyor.net/58194/tn30/581944280_tn30_0.jpg" width="203px" height="203px" class="img-fluid rounded" alt="ekran">
+                                    <div id="urunler" class="d-flex flex-column ms-3">
+                                        <div id="urunimage">
+                                            <img src="https://mcdn01.gittigidiyor.net/58194/tn30/581944280_tn30_0.jpg"class="img-fluid rounded" alt="ekran">
                                         </div>
-                                        <div style="height: 80px; padding: 16px 12px 8px; font-size: 14px; margin: 0px 0px 3.5px;">
-                                            <span>Gözde şömine geniş fırınlı</span>
-                                            <span>demir döküm tuğlalı kuzine...</span>                                    
+                                        <div id="urunisimleri" class="d-flex">
+                                            Gözde şömine geniş fırınlı <br>
+                                            demir döküm tuğlalı kuzine...                                 
                                         </div>
-                                        <div style="background: #f4f4f4; margin: 0px 0px 12px; padding: 12px; color: #3333; font-size: 24px;">
+                                        <div id="urunfiyatlari">
                                             <span>1.997,00 TL</span>
                                         </div>
-                                        <div id="puan" class="d-flex flex-row align-items-start" style="height: 56px; font-size: 10px; padding: 0px 12px; color: #767676;">
+                                        <div id="puan" class="d-flex flex-row align-items-start">
                                             <i class="icon-shopping" style="font-size: 12px; color: green;"></i>
                                             <span style="opacity: 0.9; padding-left: 6px; padding-top: 2px;">Ücretsiz - Aynı Gün Kargo</span>
                                         </div>
-                                        <div id="btnS3" class="d-flex align-items-end" style="height: 100%;">
+                                        <div id="urunBtn" class="d-flex align-items-end">
                                             <button type="submit" class="btn btn-primary w-100">Sepete Ekle</button>
                                         </div>
                                     </div>
 
-                                    <div id="urunler" class="d-flex flex-column ms-3" style="padding: 8px; height: 465px; width: 222px; border: 1px solid rgb(233, 222, 222); border-radius: 4px;" >
-                                        <div style="height: 204px;">
-                                            <img src="https://mcdn01.gittigidiyor.net/59052/tn30/590521015_tn30_0.jpg" width="203px" height="203px" class="img-fluid rounded" alt="ekran">
+                                    <div id="urunler" class="d-flex flex-column ms-3">
+                                        <div id="urunresimleri">
+                                            <img src="https://mcdn01.gittigidiyor.net/59052/tn30/590521015_tn30_0.jpg" class="img-fluid rounded" alt="ekran">
                                         </div>
-                                        <div style="height: 80px; padding: 16px 12px 8px; font-size: 14px; margin: 0px 0px 3.5px;">
-                                            <span>XinBaoLong QH-2 Ev Tipi</span>
-                                            <span>Elektrikli Vakum Makinesi...</span>                                    
+                                        <div id="urunisimleri" class="d-flex">
+                                            XinBaoLong QH-2 Ev Tipi <br>
+                                            Elektrikli Vakum Makinesi...                                  
                                         </div>
-                                        <div style="background: #f4f4f4; margin: 0px 0px 12px; padding: 12px; color: #3333; font-size: 24px;">
+                                        <div id="urunfiyatlari">
                                             <span>298,90 TL</span>
                                         </div>
-                                        <div id="puan" class="d-flex flex-row align-items-start" style="height: 56px; font-size: 10px; padding: 0px 12px; color: #767676;">
+                                        <div id="puan" class="d-flex flex-row align-items-start">
                                             <i class="icon-shopping" style="font-size: 12px; color: green;"></i>
                                             <span style="opacity: 0.9; padding-left: 6px; padding-top: 2px;">Ücretsiz Kargo</span>
                                         </div>
-                                        <div id="btnS4" class="d-flex align-items-end" style="height: 100%;">
+                                        <div id="urunBtn" class="d-flex align-items-end">
                                             <button type="submit" class="btn btn-primary w-100">Sepete Ekle</button>
                                         </div>
                                     </div>
 
-                                    <div id="urunler" class="d-flex flex-column ms-3" style="padding: 8px; height: 465px; width: 222px; border: 1px solid rgb(233, 222, 222); border-radius: 4px;" >
-                                        <div style="height: 204px;">
-                                            <img src="https://mcdn01.gittigidiyor.net/63758/tn30/637585846_tn30_0.jpg" width="203px" height="203px" class="img-fluid rounded" alt="ekran">
+                                    <div id="urunler" class="d-flex flex-column ms-3">
+                                        <div id="urunresimleri">
+                                            <img src="https://mcdn01.gittigidiyor.net/63758/tn30/637585846_tn30_0.jpg" class="img-fluid rounded" alt="ekran">
                                         </div>
-                                        <div style="height: 80px; padding: 16px 12px 8px; font-size: 14px; margin: 0px 0px 3.5px;">
-                                            <span>Arçelik 2060 MB 6 Çekmece</span>
-                                            <span>Dondurucu</span>                                                                                
+                                        <div id="urunisimleri" class="d-flex">
+                                            Arçelik 2060 MB 6 Çekmece <br>
+                                            Dondurucu                                                                               
                                         </div>
-                                        <div style="background: #f4f4f4; margin: 0px 0px 12px; padding: 12px; color: #3333; font-size: 24px;">
+                                        <div id="urunfiyatlari">
                                             <span>2.099,00 TL</span>
                                         </div>
-                                        <div id="puan" class="d-flex flex-column" style="height: 56px; font-size: 10px; padding: 0px 12px; color: #767676;">
+                                        <div id="puan" class="d-flex flex-column">
                                              <div><i class="icon-people" style="font-size: 12px; color: yellow;"></i><i class="icon-people ms-1" style="font-size: 12px;color: yellow;"></i><i class="icon-people ms-1" style="font-size: 12px;color: yellow;"></i><i class="icon-people ms-1" style="font-size: 12px;color: yellow;"></i><i class="icon-people ms-1 me-1" style="font-size: 12px;color: yellow;"></i>5(2)</div> 
                                              <div class="d-flex flex-row align-items-center pt-2">
                                                  <span><i class="icon-shopping" style="font-size: 12px; color: green;"></i></span>
                                                  <span style="opacity: 0.9; padding-left: 6px; padding-top: 2px;">Ücretsiz Kargo</span>
                                              </div>
                                         </div>
-                                        <div id="btnS5" class="d-flex align-items-end " style="height: 100%;">
+                                        <div id="urunBtn" class="d-flex align-items-end">
                                             <button type="submit" class="btn btn-primary w-100">Sepete Ekle</button>
                                         </div>
                                     </div> 
@@ -409,55 +433,62 @@
                 </div>
             </div>
 
-            <div class="container rounded" id="onecikanmarkalar" style="height: 442px; background: #fff; margin-bottom: 16px; padding-top: 24px; padding-bottom: 20px;">
-                    <div id="onecikanmarkalar" style="height: 382px;">
-                        <div class="d-flex flex-row justify-content-between align-items-center" style="margin: 0px 24px 16px 24px;">
-                            <div id="1" style="color: #333; font-size: 24px; line-height: normal;">
+            <div class="container" id="onecikanmarkalar">
+                    <div id="onecikan">
+                        <div id="onecikancon" class="d-flex flex-row justify-content-between align-items-center">
+                            <div id="onecikanisim">
                                 Öne Çıkan Markalar
                             </div>
-                            <div id="2">
-                                <a href="#" style="color: #3665f3 !important; font-size: 14px !important;">Tümünü Keşfet <i id="right" class="icon-right" style="font-size: 14px; color: #3665f3;"></i> </a>
+                            <div id="onecikankesfet">
+                                <a href="#">Tümünü Keşfet <i id="right" class="icon-right"></i> </a>
                             </div>
                         </div>
 
-                        <div class="row d-flex flex-row justify-content-center align-items-center" style="height: 280px">
-                            <div class="col" id="adidas" style="width: 389px;">
-                               <a href="#"> <img src="https://mcdn01.gittigidiyor.net/ps/adidasmarkabanner_1614683258.jpg" width="389px" height="260px" class="img-fluid rounded" alt="Konforlu seçimlerle aktif kal"></a>
+                        <div id="onecikan2" class="row d-flex flex-row justify-content-center align-items-center">
+                            <div class="col" id="adidas">
+                               <a href="#"> <img src="https://mcdn01.gittigidiyor.net/ps/adidasmarkabanner_1614683258.jpg"  class="img-fluid rounded" alt="Konforlu seçimlerle aktif kal"></a>
                             </div>
-                            <div class="col" id="delta" style="width: 389px;">
+                            <div class="col" id="delta">
                                <a href="#"> <img src="https://mcdn01.gittigidiyor.net/ps/deltarevmarkabanner_1614683342.jpg" class="img-fluid rounded" alt="Konforlu seçimlerle aktif kal"></a>
                             </div>
-                            <div class="col" id="reebook" style="width: 389px;">
-                               <a href="#"> <img src="https://mcdn01.gittigidiyor.net/ps/reebokmarkabanner_1614683461.jpg" width="389px" height="260px" class="img-fluid rounded" alt="Konforlu seçimlerle aktif kal"></a>
+                            <div class="col" id="reebook">
+                               <a href="#"> <img src="https://mcdn01.gittigidiyor.net/ps/reebokmarkabanner_1614683461.jpg" class="img-fluid rounded" alt="Konforlu seçimlerle aktif kal"></a>
                             </div>
                         </div>
 
 
-                        <div class="row d-flex flex-row justify-content-center align-items-center" style="height: 66px;">
+                        <div id="onecikan3" class="row d-flex flex-row justify-content-center align-items-center">
 
                             <div class="col-4 d-flex flex-row pt-2">
-                                <div id="adi1" style="height: 66px; margin-right: 20px;">
-                                  <a href="#">  <img src="https://mcdn01.gittigidiyor.net/ps/adidaslogo_1614683226.jpg" class="img-fluid rounded border" width="66px" height="66px" alt="adidas"></a>
-                                </div>
-                                <div class="d-flex align-self-start align-items-center" style="font-size: 16px; height: 66px;">
-                                    Konforlu seçimlerle aktif kal
-                                </div>
+
+                                    <div id="adi1" class="onecikans">
+                                    <a href="#">  <img src="https://mcdn01.gittigidiyor.net/ps/adidaslogo_1614683226.jpg" class="img-fluid rounded border" alt="adidas"></a>
+                                    </div>
+                                    <div class="d-flex align-self-start align-items-center onecikans2">
+                                        Konforlu seçimlerle aktif kal
+                                    </div>
+
+                            </div>
+
+                            <div class="col-4 d-flex flex-row pt-2">
+
+                                    <div id="delta" class="onecikans">
+                                    <a href="#">  <img src="https://mcdn01.gittigidiyor.net/ps/deltalogo_1614683315.jpg" class="img-fluid rounded border" alt="adidas"></a>
+                                    </div>
+                                    <div class="d-flex align-self-start align-items-center onecikans2">
+                                        Konforlu seçimlerle aktif kal
+                                    </div>
+
                             </div>
                             <div class="col-4 d-flex flex-row pt-2">
-                                <div id="delta" style="height: 66px; margin-right: 20px;">
-                                  <a href="#">  <img src="https://mcdn01.gittigidiyor.net/ps/deltalogo_1614683315.jpg" class="img-fluid rounded border" width="66px" height="66px" alt="adidas"></a>
-                                </div>
-                                <div class="d-flex align-self-start align-items-center" style="font-size: 16px; height: 66px;">
-                                    Konforlu seçimlerle aktif kal
-                                </div>
-                            </div>
-                            <div class="col-4 d-flex flex-row pt-2">
-                                <div id="reebok" style="height: 66px; margin-right: 20px;">
-                                     <img src="https://mcdn01.gittigidiyor.net/ps/reeboklogo_1614683435.jpg" class="img-fluid rounded border" width="66px" height="66px" alt="adidas"></a>
-                                </div>
-                                <div class="d-flex align-self-start align-items-center" style="font-size: 16px; height: 66px;">
-                                  <a href="#">Konforlu seçimlerle aktif kal</a>  
-                                </div>
+
+                                    <div id="reebok" class="onecikans">
+                                        <img src="https://mcdn01.gittigidiyor.net/ps/reeboklogo_1614683435.jpg" class="img-fluid rounded border" alt="adidas"></a>
+                                    </div>
+                                    <div class="d-flex align-self-start align-items-center onecikans2">
+                                    <a href="#">Konforlu seçimlerle aktif kal</a>  
+                                    </div>
+
                             </div>
 
                         </div>
@@ -1350,6 +1381,7 @@
 
     <footer id="footer">
         <div id="mainfooter" class="container">
+            
             <div class="footerinfo float-start">
                 <h3 class="h3">GittiGidiyor - Türkiye’nin Öncü Alışveriş Sitesi</h3>
                 <p class="paragraf">
