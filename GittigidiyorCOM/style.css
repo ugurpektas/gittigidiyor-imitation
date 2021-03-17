@@ -59,18 +59,17 @@ span {
     margin-left: 278px;
 }
 #header1 ul li {
-    margin-left: 12px;
-    margin-right: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
     color: rgb(51, 51, 51);
     font-family: Roboto, Arial, sans-serif;
     font-size: 0.72em;
     font-weight: normal;
-    opacity: 0.9;  
+    opacity: 0.9;
 }
 #header1 ul li:hover {
     border-radius: 30px;
     background: rgb(236, 234, 234);
-    padding: 0 5px;
 }
 /*Orta-header*/
 #header2 #image {
@@ -571,6 +570,10 @@ span {
     border-radius: 4px;
     cursor: pointer;
 }
+#sizinicinCon #secilenler #urunler:hover {
+    border: none !important;
+    box-shadow: 0px 2px 8px 6px rgb(212, 210, 210) !important;
+}
 #sizinicinCon #secilenler #sizinresim {
     height: 206px; 
 }
@@ -606,10 +609,7 @@ span {
 #sizinicinCon #secilenler #sizinicinBtn {
     height: 100%;
 }
-#sizinicinCon #secilenler #urunler:hover {
-    border: none !important;
-    box-shadow: 0px 2px 8px 6px rgb(212, 210, 210) !important;
-}
+
 
 /********Kazananlar-kulübü alanı*********/
 #kazananlarKulubu {
@@ -697,12 +697,16 @@ span {
 }
 
 #cokSatanlar #coksatan2 #altcont {
-    border: 1px solid rgb(233, 229, 229);
+    border: 1px solid rgb(233, 229, 229) !important;
     width: 222px ;
     height: 453px;
     border-radius: 4px;
     padding: 8px;
     cursor: pointer;
+}
+#cokSatanlar #altcont:hover{
+    border: none !important;
+    box-shadow: 0px 2px 8px 6px rgb(212, 210, 210) !important;
 }
 
 #cokSatanlar #coksatan2 #coksatanresim {
@@ -739,10 +743,7 @@ span {
 #cokSatanlar #altcont .btn {
     display: none;
 }
-#cokSatanlar #urunler:hover{
-    border: none !important;
-    box-shadow: 1px 1px 1px 1px rgb(121, 118, 118);
-}
+
 #cokSatanlar #altcont:hover .btn{
     display: block;
 }
@@ -860,6 +861,11 @@ span {
     border-radius: 4px; 
     cursor: pointer;
 }
+#ilgiliurunler #ilgiitems:hover{
+    border: none !important;
+    box-shadow: 0px 2px 8px 6px rgb(212, 210, 210) !important;
+}
+
 /**/
 #ilgiliurunler #sira2 #ilgiitems {
     height: 483px !important;
@@ -917,11 +923,6 @@ span {
 }
 #ilgiliurunler #sira5 .btn {
     margin-top: 16px ;
-}
-
-#ilgiliurunler #ilgiitems:hover{
-    border: none !important;
-    box-shadow: 0px 2px 8px 6px rgb(212, 210, 210) !important;
 }
 #ilgiliurunler #ilgiitems:hover .btn{
     display: block;
