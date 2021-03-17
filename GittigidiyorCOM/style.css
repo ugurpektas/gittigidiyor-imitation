@@ -267,7 +267,7 @@ span {
 #header3 #megacontainer a:hover{
     text-decoration: underline !important;
 }
-#header3 #megacontainer #spanbaslik {
+#header3 #megacontainer #spanbaslik a {
     font-weight: bold !important;
     font-size: 17px !important;
 }
@@ -280,7 +280,7 @@ span {
 }
 #header3 #megacontainer #elektrik a {
     color: black;
-    font-size: 0.7em;
+    font-size: 12px;
     opacity: 0.8;
 }
 #header3 #megacontainer a #mobile {
@@ -324,12 +324,18 @@ span {
     height: 81px;
 }
 #hero .bigimage {
-    padding: 0;
+    padding: 0;    
+}
+#hero .bigimage img {
+    border-top-left-radius: 6px !important;
+    border-top-right-radius: 6px !important;
 }
 #hero #kucukresimler {
     height: 95px; 
     padding:14px 24px 16px 24px; 
     background: #fff;
+    border-bottom-left-radius: 6px !important;
+    border-bottom-right-radius: 6px !important;
 }
 #hero .container #kucukresimler div:hover{
     border-bottom: 3px solid rgb(54, 101, 243);
@@ -340,6 +346,9 @@ span {
     height: 79px; 
     background: #fff; 
     padding: 25px 24px 25px 24px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+
 }
 #hero #tumunukesfet #kesif {
     color: #333; 
@@ -360,6 +369,8 @@ span {
     height: 406px; 
     padding: 0px 24px 24px; 
     background: #fff;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
 }
 #hero #tumunukesfet #kesifresim img {
     width: 280px;
@@ -375,6 +386,7 @@ span {
     height: 79px; 
     background: #fff; 
     padding: 25px 20px 25px 25px;
+    border-radius: 6px;
 }
 #yildizfirsatlar #yildizinfo #firsat {
     color: #333; 
@@ -395,6 +407,7 @@ span {
     margin-top: -10px; 
     padding: 10px 25px 0px 25px; 
     background: #fff;
+    border-radius: 6px;
 }
 #yildizfirsatlar #mainurunler {
     padding: 0px 10px;
@@ -403,7 +416,7 @@ span {
     padding: 8px; 
     height: 465px; 
     width: 222px; 
-    border: 1px solid rgb(233, 222, 222); 
+    border: 1px solid rgb(233, 222, 222) !important; 
     border-radius: 4px; 
     cursor: pointer;
 } 
@@ -435,9 +448,10 @@ span {
 #hero #urunler .btn {
     display: none;
 }
-#hero #urunler:hover{
+#yildizfirsatlar #urunler:hover{
     border: none !important;
-    box-shadow: 1px 1px 1px 1px rgb(121, 118, 118);
+    box-shadow: 0px 2px 8px 6px rgb(212, 210, 210) !important;
+    transition-delay: 0.05s;    
 }
 #hero #urunler:hover .btn{
     display: block;
@@ -451,10 +465,10 @@ span {
 /******ÖNE ÇIKAN MARKALAR BÖLÜMÜ******/
 #onecikanmarkalar {
     height: 442px; 
-    background: #fff; 
-    margin-bottom: 16px; 
+    background: #fff;
     padding-top: 24px; 
     padding-bottom: 20px;
+    border-radius: 6px;
 }
 #onecikanmarkalar #onecikan {
     height: 382px;
@@ -557,12 +571,8 @@ span {
     border-radius: 4px;
     cursor: pointer;
 }
-#sizinicinCon #secilenler #resim1,
-                        #resim2,
-                        #resim3,
-                        #resim4 {
+#sizinicinCon #secilenler #sizinresim {
     height: 206px; 
-    width: 206px;
 }
 #sizinicinCon #secilenler #aciklama {
     height: 80px; 
@@ -595,6 +605,10 @@ span {
 }
 #sizinicinCon #secilenler #sizinicinBtn {
     height: 100%;
+}
+#sizinicinCon #secilenler #urunler:hover {
+    border: none !important;
+    box-shadow: 0px 2px 8px 6px rgb(212, 210, 210) !important;
 }
 
 /********Kazananlar-kulübü alanı*********/
@@ -842,7 +856,7 @@ span {
     padding: 8px; 
     height: 551px; 
     width: 282px; 
-    border: 1px solid rgb(240, 233, 233); 
+    border: 1px solid rgb(240, 233, 233) !important; 
     border-radius: 4px; 
     cursor: pointer;
 }
@@ -904,9 +918,10 @@ span {
 #ilgiliurunler #sira5 .btn {
     margin-top: 16px ;
 }
+
 #ilgiliurunler #ilgiitems:hover{
     border: none !important;
-    box-shadow: 1px 1px 1px 1px rgb(121, 118, 118);
+    box-shadow: 0px 2px 8px 6px rgb(212, 210, 210) !important;
 }
 #ilgiliurunler #ilgiitems:hover .btn{
     display: block;
@@ -1020,9 +1035,10 @@ span {
     color: #333333;
 }
 #footer #socialmedia i {
-    font-size: 48px; 
     padding: 0px 8px;
+    cursor: pointer;
 }
+
 #footer #mobileuygulama {
     width: 579px; 
     height: 50px; 
@@ -1038,8 +1054,7 @@ span {
     cursor: pointer;
 }
 #footer #mobileuygulama i {
-    font-size: 32px; 
-    padding: 0px 8px;
+    padding: 0px 4px;
 }
 #footer #hr {
     padding: 0px 8px;
@@ -1055,10 +1070,6 @@ span {
 #footer #guven #damgaicon {
     padding-left: 8px; 
     cursor: pointer;
-}
-#footer #guven #damgaicon i {
-    font-size: 47px; 
-    color: green;
 }
 #footer #guven span {
     font-size: 16px; 
