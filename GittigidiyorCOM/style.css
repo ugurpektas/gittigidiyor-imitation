@@ -411,7 +411,9 @@ span {
 #yildizfirsatlar #mainurunler {
     padding: 0px 10px;
 }
-#yildizfirsatlar #mainurunler #urunler {
+
+
+#yildizfirsatlar #mainurunler .urunler{
     padding: 8px; 
     height: 465px; 
     width: 222px; 
@@ -419,46 +421,50 @@ span {
     border-radius: 4px; 
     cursor: pointer;
 } 
-#yildizfirsatlar #urunler #urunimage {
+
+#yildizfirsatlar #mainurunler .urunler:hover{
+    border: 1px solid white !important;
+    box-shadow: 0px 2px 8px 6px rgb(212, 210, 210) !important;
+    transition-delay: 0.05s;    
+}
+
+
+#yildizfirsatlar .urunler #urunimage {
     height: 204px;
 }
-#yildizfirsatlar #urunler #urunisimleri {
+#yildizfirsatlar .urunler #urunisimleri {
     height: 80px; 
     padding: 16px 12px 8px; 
     font-size: 14px; 
     margin: 0px 0px 3.5px;
 }
-#yildizfirsatlar #urunler #urunfiyatlari {
+#yildizfirsatlar .urunler #urunfiyatlari {
     background: #f4f4f4; 
     margin: 0px 0px 12px; 
     padding: 12px; 
     color: #3333; 
     font-size: 24px;
 }
-#yildizfirsatlar #urunler #puan {
+#yildizfirsatlar .urunler #puan {
     height: 56px; 
     font-size: 10px; 
     padding: 0px 12px; 
     color: #767676;
 }
-#yildizfirsatlar #urunler #urunBtn {
+#yildizfirsatlar .urunler #urunBtn {
     height: 100% !important;
 }
-#hero #urunler .btn {
+#hero .urunler .btn {
     display: none;
 }
-#yildizfirsatlar #urunler:hover{
-    border: none !important;
-    box-shadow: 0px 2px 8px 6px rgb(212, 210, 210) !important;
-    transition-delay: 0.05s;    
-}
-#hero #urunler:hover .btn{
+
+#hero .urunler:hover .btn{
     display: block;
 }
-#hero #urunler #puan {
+#hero .urunler #puan {
     display: block;
 }
-#hero #urunler:hover #puan{
+#hero .urunler:hover #puan{
     display: none !important;
 }
 /******ÖNE ÇIKAN MARKALAR BÖLÜMÜ******/
@@ -562,16 +568,16 @@ span {
     padding: 10px 16px 8px 0px;
 }
 
-#sizinicinCon #secilenler #urunler {
+#sizinicinCon #secilenler .urunler {
     padding: 8px; 
     height: 465px; 
     width: 222px; 
-    border: 1px solid rgb(233, 222, 222); 
+    border: 1px solid rgb(233, 222, 222) !important; 
     border-radius: 4px;
     cursor: pointer;
 }
-#sizinicinCon #secilenler #urunler:hover {
-    border: none !important;
+#sizinicinCon #secilenler .urunler:hover {
+    border:  1px solid white !important;
     box-shadow: 0px 2px 8px 6px rgb(212, 210, 210) !important;
 }
 #sizinicinCon #secilenler #sizinresim {
@@ -857,12 +863,12 @@ span {
     padding: 8px;
     height: 551px; 
     width: 282px; 
-    border: 1px solid rgb(240, 233, 233) !important; 
+    border: 1px solid rgb(240, 233, 233); 
     border-radius: 4px; 
     cursor: pointer;
 }
 #ilgiliurunler #ilgiitems:hover{
-    border: none !important;
+    border:  1px solid white !important;
     box-shadow: 0px 2px 8px 6px rgb(212, 210, 210) !important;
 }
 
